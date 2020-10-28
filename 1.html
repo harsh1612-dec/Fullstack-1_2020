@@ -1,0 +1,156 @@
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Home Page</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap" rel="stylesheet"> 
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+          <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Patrick+Hand&display=swap" rel="stylesheet">
+          <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+          <link rel="icon" type="image/png" sizes="32x32" href="accents.jpg">
+          <style>
+               .vl {
+                    border-left: 3px solid gray;
+                    height: 75px;
+               }
+               * {
+                    box-sizing:content-box;
+               }
+               a:hover{
+                    color: red;
+               }
+               .image {
+                    opacity: 1;
+                    display: block;
+                    height: auto;
+                    transition: .5s ease;
+                    backface-visibility: hidden;
+               }
+               .col1:hover .image {
+                    opacity: 0.3;
+               }
+               .col1:hover .middle {
+                    opacity: 1;
+               }
+               .middle {
+                    transition: .5s ease;
+                    opacity: 0;
+                    position:absolute;
+                /*    top: auto;
+                    left: auto;*/
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    text-align: center;
+               }
+               .centered {
+                    background-color: goldenrod;
+                    color: white;
+                    font-size: 16px;
+                    padding: 16px 32px;
+               }
+               .col1 {
+                    float: left;
+                    width: 40%;C:\Users\Harsh Agarwal\Documents\GitHub\MP\outdoor.jpg
+                    padding: 20px;
+               }
+
+               /* Clearfix (clear floats) */
+               .row::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+               }
+               a:hover{
+                    background-color: darksalmon;
+               }
+          </style>
+     </head>
+
+     <body>
+     <div id = header>
+          <div class="container">
+          <div class="row">
+
+          <table>
+               <tbody>
+
+                    <tr>
+
+
+                    <td >
+                    <a href="#"><img src="DD-dark.png" alt="logo" style="width: 75px;  height: 75px; padding:0;border:0;margin:6px 0 0 0;float:left;display:inline;"> </a>
+                         <h2 class="tagline" style="font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:13px;font-weight:200;padding:2px 0 2px 10px;margin:8px 0 0 80px;line-height:2.1;border-left:solid 1px #ccc;color:#555;letter-spacing:1px;">Designing your<br>home &amp; office</h2>
+                    </td>
+
+
+               </tr>
+                    </tbody>
+          </table>
+          </div>
+          </div>
+          </div>
+     <hr style="height:2px;border-width:0;width:55%;color:gray;background-color:gray">
+
+     <div class="container">
+          <div class="row">
+               <div class="col1">
+                    <a href="#"><img src="BedRoom.jpg" alt="image of bedroom" class="image"  style="text-align: center; width: 90%">
+                    <div class="middle" style="left: 29%; top: 48.5%">
+                    <div class="centered" style="top: 50%;left: 50%;transform: translate(35%, -280%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Bed Room</div>
+                    </div></a></div>
+               <div class="col1">
+                    <a href="#"> <img src="Dining.jpg" alt="image of dining" class="image" style="text-align: center; width:90%">
+                    <div class="middle" style="top: 48%; left: 56%">
+                         <div class="centered" style="top: 50%;left: 50%;transform: translate(39%, -270%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Dining</div>
+
+                    </div></a></div>
+               <div class="col1">
+                    <a href="#"> <img src="living.jpg" alt="image of living" class="image" style=" text-align: center; width:90%; padding: auto" >
+                    <div class="middle" style=" top: 80%; left: 30%">
+                         <div class="centered" style="top: 50%;left: 50%;transform: translate(37%, -333%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Living</div>
+                    </div>
+                    </a>
+               </div>
+               <div class="col1">
+                    <a href="#"> <img src="office.jpg" alt="image of office" class="image" style=" text-align: center; width:90%; padding: auto" >
+                    <div class="middle" style="top: 83%;left: 56%">
+                         <div class="centered" style="top: 50%;left: 50%;transform: translate(41%, -375%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Office</div>
+                    </div>
+                    </a>
+               </div>
+               <div class="col1">
+                    <a href="#"> <img src="outdoor.jpg" alt="image of outdoor" class="image" style=" text-align: center; width:90%">
+                    <div class="middle" style="top: 109%; left: 30%">
+                         <div class="centered" style="top: 50%;left: 50%;transform: translate(41%, -360%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Outdoor</div>
+                    </div>
+                    </a>
+               </div>
+               <div class="col1">
+                    <a href="#"> <img src="accents.jpg" alt="image of accents" class="image" style=" text-align: center; width:90%">
+                    <div class="middle" style="top: 109%; left: 55.8%">
+                    <div class="centered" style="top: 50%;left: 50%;transform: translate(37%, -375%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Accents</div>
+                    </div>
+                    </a>
+               </div>
+               <div class="col1">
+                    <a href="#"> <img src="artwork.jpg" alt="image of artwork" class="image" style="text-align: center; width:90%">
+                    <div class="middle" style=" top: 127%; left: 30%">
+                         <div class="centered" style="top: 50%;left: 50%;transform: translate(41%, -245%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white;font-weight:200;">Artwork</div>
+                    </div>
+                    </a>
+               </div>
+               <div class="col1">
+                    <a href="#"> <img src="lighting.jpg" alt="image of lighting" class="image" style="text-align: center ; width:90%">
+                    <div class="middle" style=" top: 136%; left: 55%">
+                         <div class="centered" style=" top: 50%;left: 50%;transform: translate(41%, -375%);font-family:Poppins,verdana,arial,helvetica,sans-serif;font-size:25px;color: white; font-weight:200;">Lightning</div>
+                    </div>
+                    </a>
+               </div>
+          </div>
+     </div>
+
+     </body>
+
+</html>
